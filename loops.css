@@ -28,9 +28,19 @@ body{
 }
 
 .headerul li{
-    Font-size: 14px;
+    Font-size: 15px;
     list-style: none;
     padding: 0 15px;
     color: #fff;
 }
 
+.textheader{
+    width: 20%;
+    border: 1px solid #fff;
+}
+
+.headerh1{
+    width: 20%;
+    border: 1px solid #fff;
+    color: #fff;
+}
