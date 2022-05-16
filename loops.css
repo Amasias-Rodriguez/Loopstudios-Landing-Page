@@ -7,9 +7,9 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
-body{
+/* body{
     background-color: black;
-}
+} */
 
 .header{
     background-image: url(/imagenes/image-hero.jpg);
@@ -34,13 +34,54 @@ body{
     color: #fff;
 }
 
-.textheader{
-    width: 20%;
+.section-header{
+    width: 60%;
     border: 1px solid #fff;
+    position: relative;
+    bottom: 15rem;
 }
 
 .headerh1{
-    width: 20%;
-    border: 1px solid #fff;
+    font-size: 65px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    width: 40%;
+    border: 2px solid #fff;
     color: #fff;
+    position: relative;
+    bottom: 26rem;
+    left: 15rem;
+    padding: 18px 15px;
+}
+
+/* SECTION 1 */
+
+.img-1{
+    position: relative;
+    bottom: 7rem;
+    left: 12rem;
+}
+
+.sec1-text{
+    width: 36%;
+    height: 65vh;
+    padding: 0 10px;
+    padding-top: 5rem;
+    background: #fff;
+    position: relative;
+    bottom: 26rem;
+    left: 48rem;
+}
+
+.sec1-h1{
+    font-size: 45px;
+    font-weight: 375;
+    letter-spacing: 2px;
+    padding: 20px;
+}
+
+.sec1p{
+    font-weight: 400;
+    line-height: 1.5;
+    color: #7e7d7d;
 }
